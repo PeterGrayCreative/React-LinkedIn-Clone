@@ -1,0 +1,14 @@
+.menu {
+
+}
+.menu-link {
+    text-align:center;
+}
+.menu-link img {
+    max-width:32px;
+}
+.menu-link a {
+    color:#c7d1d8;
+    font-size:14px;
+    display:block;
+}
