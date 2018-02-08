@@ -1,7 +1,7 @@
 .user-grid {
     padding:0;
-    border-top: 1px solid lightgray;
-    border-left: 1px solid lightgray;
+    /* border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray; */
 }
 .user-grid__header {
     padding:16px;

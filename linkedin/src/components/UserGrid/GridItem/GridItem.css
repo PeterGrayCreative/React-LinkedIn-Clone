@@ -14,8 +14,7 @@
 }
 .grid-item {
     padding:20px;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border: .5px solid lightgray;
     background-color:white;
 }
 .grid-item__button {

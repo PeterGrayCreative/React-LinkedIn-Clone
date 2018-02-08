@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Header from "./components/Header/Header";
-import dummyData from "./dummy-data";
 import UserGrid from "./components/UserGrid/UserGrid";
 import "./reset.css";
 import "./App.css";
+
 class App extends Component {
   render() {
     return (
