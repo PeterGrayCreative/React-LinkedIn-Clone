@@ -1,0 +1,14 @@
+.header {
+    background-color:#293E49;
+    padding:5px 0;
+    margin-bottom:50px;
+}
+.header input {
+    height:40px;
+    padding:10px;
+    width:250px;
+}
+.logo {
+    width:auto;
+    height:40px;
+}
