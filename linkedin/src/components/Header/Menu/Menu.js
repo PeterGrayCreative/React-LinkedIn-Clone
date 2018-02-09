@@ -1,40 +1,40 @@
-import React from "react";
-import "./Menu.css";
+import React from 'react';
+import './Menu.css';
 import icon from './group.png';
 class Menu extends React.Component {
   state = {
     menu: [
       {
-        title: "Home",
-        link: "/home",
-        icon: "ico-home"
+        title: 'Home',
+        link: '/home',
+        icon: 'ico-home',
       },
       {
-        title: "My Network",
-        link: "/network",
-        icon: "ico-network"
+        title: 'My Network',
+        link: '/network',
+        icon: 'ico-network',
       },
       {
-        title: "Jobs",
-        link: "/jobs",
-        icon: "ico-jobs"
+        title: 'Jobs',
+        link: '/jobs',
+        icon: 'ico-jobs',
       },
       {
-        title: "Messaging",
-        link: "/messaging",
-        icon: "ico-messaging"
+        title: 'Messaging',
+        link: '/messaging',
+        icon: 'ico-messaging',
       },
       {
-        title: "Notifications",
-        link: "/notifications",
-        icon: "ico-notifications"
+        title: 'Notifications',
+        link: '/notifications',
+        icon: 'ico-notifications',
       },
       {
-        title: "Me",
-        link: "/me",
-        icon: "ico-me"
-      }
-    ]
+        title: 'Me',
+        link: '/me',
+        icon: 'ico-me',
+      },
+    ],
   };
   render() {
     return (
@@ -42,7 +42,7 @@ class Menu extends React.Component {
         <ul className="menu d-flex justify-content-between">
           {this.state.menu.map(link => {
             return (
-              <li className="menu-link">
+              <li key={link.title} className="menu-link">
                 <img src={icon} />
                 <a href={link.link}>{link.title}</a>
               </li>
